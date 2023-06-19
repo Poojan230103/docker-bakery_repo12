@@ -1,3 +1,5 @@
 # django_img:3.0
 
-FROM docker-bakery-system/test-component1_repo11:1.4000000000000004RUN pip install Django
+FROM docker-bakery-system/test-component1_repo11:1.0
+
+RUN pip install Django
