@@ -24,6 +24,9 @@ function check_component() {
     test-component3_repo12)
     DOCKERFILE_PATH=./components_repo12/test-component3_repo12/Dockerfile
     ;;
+    test-component4_repo12)
+    DOCKERFILE_PATH=./components_repo12/test-component4_repo12/Dockerfile
+    ;;
     *)
       echo "Invalid component" && exit 1 ;;
   esac
