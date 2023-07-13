@@ -4,4 +4,4 @@ FROM poojan23/docker-bakery-system_repo11-component1:1.0
 
 RUN pip install Django
 
-# testing manual sync repo12-component5 - 2
+# testing manual sync repo12-component5 - 3
